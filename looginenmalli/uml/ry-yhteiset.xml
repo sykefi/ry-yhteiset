@@ -7,9 +7,7 @@
 			<packagedElement xmi:type="uml:Class" xmi:id="EAID_7FE1D815_70B5_467a_8F8E_A7A160F00708" name="AbstraktiKäsittelytapahtumanLaji" visibility="public" isAbstract="true"/>
 			<packagedElement xmi:type="uml:Class" xmi:id="EAID_570DAF85_9077_4b24_B659_D03E578A156E" name="AbstraktiLisätiedonLaji" visibility="public" isAbstract="true"/>
 			<packagedElement xmi:type="uml:Class" xmi:id="EAID_BAE7804C_B4D3_4e32_8CBD_F49C99617CE0" name="AbstraktiLupamääräyksenLaji" visibility="public" isAbstract="true"/>
-			<packagedElement xmi:type="uml:Class" xmi:id="EAID_4674E987_63C4_4861_9234_F72386509751" name="AbstraktiLuvanElinkaaritila" visibility="public" isAbstract="true">
-				<generalization xmi:type="uml:Generalization" xmi:id="EAID_39A1CBF9_946A_46ad_A7E1_E4D02B9F390D" general="EAID_581B4F10_F6C1_4cd1_AA66_0AFDE39CA434"/>
-			</packagedElement>
+			<packagedElement xmi:type="uml:Class" xmi:id="EAID_4674E987_63C4_4861_9234_F72386509751" name="AbstraktiLuvanElinkaaritila" visibility="public" isAbstract="true"/>
 			<packagedElement xmi:type="uml:Class" xmi:id="EAID_D0E1693F_2554_45d1_9EC3_8B744317F1B8" name="AbstraktiVuorovaikutustapahtumanLaji" visibility="public" isAbstract="true"/>
 			<packagedElement xmi:type="uml:Class" xmi:id="EAID_AB9059DA_CAAD_4d3a_91EB_4A77594F6B87" name="Aikavaliarvo" visibility="public">
 				<ownedAttribute xmi:type="uml:Property" xmi:id="EAID_FDC6272D_B18A_4ae8_9D0B_E0E48814CFF3" name="arvo" visibility="public" isStatic="false" isReadOnly="false" isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false">
@@ -926,7 +924,7 @@
 				<extendedProperties tagged="0" package_name="Rakennettu ymparisto"/>
 				<packageproperties version="1.0" owner="ior" xmiver="Enterprise Architect XMI 2.1/UML 2.1" tpos="0"/>
 				<paths xmlpath="Z:\ry-yhteiset\looginenmalli\uml\ry-yhteiset.xml"/>
-				<times created="2020-09-16 17:03:59" modified="2021-10-14 17:02:17" lastloaddate="2021-10-14 16:35:38" lastsavedate="2021-12-03 19:31:43"/>
+				<times created="2020-09-16 17:03:59" modified="2021-10-14 17:02:17" lastloaddate="2021-10-14 16:35:38" lastsavedate="2021-12-03 19:37:09"/>
 				<flags iscontrolled="TRUE" isprotected="FALSE" batchsave="0" batchload="0" usedtd="FALSE" logxml="FALSE" packageFlags="Recurse=1;"/>
 			</element>
 			<element xmi:idref="EAID_581B4F10_F6C1_4cd1_AA66_0AFDE39CA434" xmi:type="uml:Class" name="AbstraktiAsianElinkaaritila" scope="public">
@@ -942,9 +940,6 @@
 				</tags>
 				<xrefs value="$XREFPROP=$XID={96EBC268-B1BB-4bf7-8966-EF147046B502}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=CodeList;FQName=GML::CodeList;@ENDSTEREO;$DES;$CLT={581B4F10-F6C1-4cd1-AA66-0AFDE39CA434}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 				<extendedProperties tagged="0" package_name="Yhteiset" ea_attsclassified="{B185A0FD-54DF-4fc6-8B44-50B42B74D22A}"/>
-				<links>
-					<Generalization xmi:id="EAID_39A1CBF9_946A_46ad_A7E1_E4D02B9F390D" start="EAID_4674E987_63C4_4861_9234_F72386509751" end="EAID_581B4F10_F6C1_4cd1_AA66_0AFDE39CA434"/>
-				</links>
 			</element>
 			<element xmi:idref="EAID_7FE1D815_70B5_467a_8F8E_A7A160F00708" xmi:type="uml:Class" name="AbstraktiKäsittelytapahtumanLaji" scope="public">
 				<model package="EAPK_8C35E32F_0806_4134_A70C_FF48008FD604" tpos="0" ea_localid="79815" ea_eleType="element"/>
@@ -1001,9 +996,6 @@
 				</tags>
 				<xrefs value="$XREFPROP=$XID={B4270C3E-8E42-42cb-A05F-933EDF6F2253}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=CodeList;FQName=GML::CodeList;@ENDSTEREO;$DES;$CLT={4674E987-63C4-4861-9234-F72386509751}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 				<extendedProperties tagged="0" package_name="Yhteiset" ea_attsclassified="{3F8E93A0-2463-4191-85E1-78CFF953FFCB}"/>
-				<links>
-					<Generalization xmi:id="EAID_39A1CBF9_946A_46ad_A7E1_E4D02B9F390D" start="EAID_4674E987_63C4_4861_9234_F72386509751" end="EAID_581B4F10_F6C1_4cd1_AA66_0AFDE39CA434"/>
-				</links>
 			</element>
 			<element xmi:idref="EAID_D0E1693F_2554_45d1_9EC3_8B744317F1B8" xmi:type="uml:Class" name="AbstraktiVuorovaikutustapahtumanLaji" scope="public">
 				<model package="EAPK_8C35E32F_0806_4134_A70C_FF48008FD604" tpos="0" ea_localid="79816" ea_eleType="element"/>
@@ -3003,40 +2995,6 @@
 			</element>
 		</elements>
 		<connectors>
-			<connector xmi:idref="EAID_39A1CBF9_946A_46ad_A7E1_E4D02B9F390D">
-				<source xmi:idref="EAID_4674E987_63C4_4861_9234_F72386509751">
-					<model ea_localid="79840" type="Class" name="AbstraktiLuvanElinkaaritila"/>
-					<role visibility="Public" targetScope="instance"/>
-					<type aggregation="none" containment="Unspecified"/>
-					<constraints/>
-					<modifiers isOrdered="false" changeable="none" isNavigable="false"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
-					<documentation/>
-					<xrefs/>
-					<tags/>
-				</source>
-				<target xmi:idref="EAID_581B4F10_F6C1_4cd1_AA66_0AFDE39CA434">
-					<model ea_localid="79895" type="Class" name="AbstraktiAsianElinkaaritila"/>
-					<role visibility="Public" targetScope="instance"/>
-					<type aggregation="none" containment="Unspecified"/>
-					<constraints/>
-					<modifiers isOrdered="false" changeable="none" isNavigable="true"/>
-					<style value="Union=0;Derived=0;AllowDuplicates=0;"/>
-					<documentation/>
-					<xrefs/>
-					<tags/>
-				</target>
-				<model ea_localid="125657"/>
-				<properties ea_type="Generalization" direction="Source -&gt; Destination"/>
-				<parameterSubstitutions/>
-				<documentation/>
-				<appearance linemode="3" linecolor="-1" linewidth="0" seqno="0" headStyle="0" lineStyle="0"/>
-				<labels/>
-				<extendedProperties virtualInheritance="0"/>
-				<style/>
-				<xrefs/>
-				<tags/>
-			</connector>
 			<connector xmi:idref="EAID_B3290699_C273_447c_BC5C_588A70E611C5">
 				<source xmi:idref="EAID_AB9059DA_CAAD_4d3a_91EB_4A77594F6B87">
 					<model ea_localid="79814" type="Class" name="Aikavaliarvo"/>
@@ -5519,9 +5477,9 @@
 			<diagram xmi:id="EAID_5713ACB6_0229_4342_AE9D_9FE99A10D705">
 				<model package="EAPK_8C35E32F_0806_4134_A70C_FF48008FD604" localID="38719" owner="EAPK_8C35E32F_0806_4134_A70C_FF48008FD604" tpos="0"/>
 				<properties name="Koodistot" type="Logical"/>
-				<project author="ior" version="1.0" created="2020-10-09 15:23:29" modified="2021-12-03 14:39:13"/>
+				<project author="ior" version="1.0" created="2020-10-09 15:23:29" modified="2021-12-03 19:36:00"/>
 				<style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=815;DocSize.cy=1067;ShowDetails=1;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=32512;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
-				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=32E3522D;"/>
+				<style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=38C904CA;"/>
 				<swimlanes value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-13,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
 				<matrixitems value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
 				<extendedProperties/>
@@ -5536,7 +5494,6 @@
 					<element geometry="Left=48;Top=205;Right=373;Bottom=308;" subject="EAID_9A0421F4_A80C_4dc9_A51E_0CD1E022F893" seqno="8" style="Tag=1;AttCustom=0;OpCustom=0;RzO=1;DUID=1081FFDA;NSL=0;"/>
 					<element geometry="Left=48;Top=77;Right=374;Bottom=180;" subject="EAID_B23638F5_4A97_4a47_9815_27D3D310799E" seqno="9" style="Tag=1;AttCustom=0;OpCustom=0;RzO=1;DUID=BE364AB6;NSL=0;"/>
 					<element geometry="Left=415;Top=36;Right=731;Bottom=139;" subject="EAID_BC0DF6FD_991C_47a7_854E_8574C4F5E897" seqno="10" style="Tag=1;AttCustom=0;OpCustom=0;RzO=1;DUID=B845739C;NSL=0;"/>
-					<element geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_39A1CBF9_946A_46ad_A7E1_E4D02B9F390D" style="Mode=3;EOID=629ACDA3;SOID=DF8635BA;Color=-1;LWidth=0;Hidden=0;"/>
 				</elements>
 			</diagram>
 			<diagram xmi:id="EAID_7C97703C_4B7D_4f3e_A7F1_CCA4D75A275F">
