@@ -1,0 +1,14 @@
+tocTab[tocTab.length] = new Array("0.2:1", "", "Koodistot", "EARoot/EA2/EA40.html", "175.png", "38729", "0", "", "Logical diagram0","{0418F3A9-D4EB-4b7a-B9BB-5DB4668960F1}");
+tocTab[tocTab.length] = new Array("0.2:2", "", "Tonttijakosuunnitelma", "EARoot/EA2/EA42.html", "175.png", "38728", "0", "", "Logical diagram0","{2683CCD8-5726-4bd4-A413-2EDE9DD768EB}");
+tocTab[tocTab.length] = new Array("0.2:3", "", "ArvojenJyvitys", "EARoot/EA2/EA47.html", "5.png", "E79907", "0", "", "Class0","{8B9E2C57-3517-4fdb-BC62-2B9E55591FBB}");
+tocTab[tocTab.length] = new Array("0.2:4", "", "«FeatureType» TonttijakosuunnitelmanHyväksymispäätös", "EARoot/EA2/EA48.html", "5.png", "E80314", "0", "", "Class0","{2C695942-C871-4ca1-AD9E-EE0CE9436F30}");
+tocTab[tocTab.length] = new Array("0.2:5", "", "«FeatureType» Esitonttikohde", "EARoot/EA2/EA49.html", "5.png", "E79865", "0", "", "Class0","{5D0E6D7E-4AC6-42c5-B6EA-9010B7FE2988}");
+tocTab[tocTab.length] = new Array("0.2:6", "", "«CodeList» EsitonttikohteenLaji", "EARoot/EA2/EA50.html", "5.png", "E79885", "0", "", "Class0","{241B7844-ABD1-4e08-9897-99312A3CCAEE}");
+tocTab[tocTab.length] = new Array("0.2:7", "", "«DataType» Kaavatilannetieto", "EARoot/EA2/EA51.html", "5.png", "E79887", "0", "", "Class0","{9620FF0E-874B-4627-9ECD-645731E7B2EC}");
+tocTab[tocTab.length] = new Array("0.2:8", "", "«CodeList» SuhdePeruskiinteistoon", "EARoot/EA2/EA52.html", "5.png", "E79883", "0", "", "Class0","{98E4DE3D-5A1C-4584-BAEE-7C5036F01F42}");
+tocTab[tocTab.length] = new Array("0.2:9", "", "«FeatureType» Tonttijakosuunnitelma", "EARoot/EA2/EA53.html", "5.png", "E79866", "0", "", "Class0","{E25208E3-FDF8-4393-A227-795502E3EA80}");
+tocTab[tocTab.length] = new Array("0.2:10", "", "«CodeList» TonttijakosuunnitelmaLaji", "EARoot/EA2/EA54.html", "5.png", "E79882", "0", "", "Class0","{F7146F3E-0ADC-4082-B80E-E337FC9EEE6A}");
+tocTab[tocTab.length] = new Array("0.2:11", "", "«CodeList» TonttijakosuunnitelmanElinkaarentila", "EARoot/EA2/EA55.html", "5.png", "E79884", "0", "", "Class0","{2E893B84-89CD-49ac-82D4-4D6A0868D6CA}");
+tocTab[tocTab.length] = new Array("0.2:12", "", "«CodeList» TonttijakosuunnitelmanKasittelytapahtumanLaji", "EARoot/EA2/EA56.html", "5.png", "E79869", "0", "", "Class0","{CE6790DA-A9D4-4c13-826A-1AB00F02239D}");
+tocTab[tocTab.length] = new Array("0.2:13", "", "«DataType» TonttijakosuunnitelmanKumoutumistieto", "EARoot/EA2/EA57.html", "5.png", "E79862", "0", "", "Class0","{BB16A308-74CB-4f2b-BEA0-127E684B8F16}");
+tocTab[tocTab.length] = new Array("0.2:14", "", "«CodeList» TonttijakosuunnitelmanVuorovaikutustapahtumanLaji", "EARoot/EA2/EA58.html", "5.png", "E79875", "0", "", "Class0","{1E5627EE-BAF1-400a-B9F7-52F8112E91BF}");
