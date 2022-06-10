@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>KiinteistörekisteriyksikönLaji</title>
+<title>Kiinteistö</title>
 <link href="../../css/ea.css" rel="stylesheet" type="text/css" />
 <script>
 function initPage(src) {	
@@ -34,15 +34,15 @@ function nameClassifier(name, separator)
 <div class="pageHeader"></div>
 <div class="PageBody">
 	<div id="name_classifier" style="display: none;"></div>
-	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("KiinteistörekisteriyksikönLaji", " : "))</script>  : Public  &lt;&lt;CodeList&gt;&gt; Class</span>
+	<span class="ObjectTitle"><script type="text/javascript">document.write(nameClassifier("Kiinteistö", " : "))</script>  : Public abstract  Interface</span>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">12/17/2021 4:43:36 PM</td>
+			<td width="85%" class="ObjectDetailsValue">12/17/2021 4:16:03 PM</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">5/27/2022 2:06:17 PM</td>
+			<td class="ObjectDetailsValue">5/27/2022 2:06:18 PM</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -87,65 +87,117 @@ function nameClassifier(name, separator)
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{CBDB5A89-FC23-43e5-8669-1E0C26DC32B7}</td>
+			<td class="ObjectDetailsValue">{C63FD523-5D07-4688-A598-9DC9706263D9}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA7.html">Koodistot</a></td>
+			<td class="ObjectDetailsValue"><a href="EA5.html">Apuluokat</a></td>
 		</tr>
 	</table>
-	<div class="ObjectDetailsNotes">Proposed English name: DigitalOrigin&lt;br/&gt;</div>
-
+	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
+			<li onClick="parent.toggleItem('Operations');" id="OperationsTitle">Operations</li>
 			<li onClick="parent.toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 		</ul>
-<div class="ItemBody" id="TaggedValTable">
-	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+<div class="ItemBody" id="OperationsTable">
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
 		<tr>
-			<td width="50%" class="TableHeading">Tag</td>
-			<td width="50%" class="TableHeading">Value</td>
+			<td width="100%" class="TableHeading">Operation</td>
 		</tr>
-					<tr>
-				<td width="50%" class="TableRow" valign="top">asDictionary</td>
-				<td width="50%" class="TableRow" valign="top">false</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario113" onclick="parent.toggleDiv('detailsDIVScenario113','DetailsImageScenario113')" />Details:
-						<div id="detailsDIVScenario113" class="DetailsDiv" >
-						<div class="ObjectDetailsNotes">Values: true,false<br />Default: false<br />Description: If &#39;false&#39;, the class will be mapped to an XSDsimpleType. Else, it will be exported as an external dictionary.<br /></div>
-
-						</div>
-					</div>
+						<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>kiinteistöTunnus</strong>():CharacterString
 				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">extensibility</td>
-				<td width="50%" class="TableRow" valign="top">&lt;a href=&quot;http://inspire.ec.europa.eu/registry/extensibility/none&quot; target=&quot;_blank&quot; &gt;http://inspire.ec.europa.eu/registry/extensibility/none&lt;/a&gt;</td>
-			</tr>	
+			</tr>
 			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario114" onclick="parent.toggleDiv('detailsDIVScenario114','DetailsImageScenario114')" />Details:
-						<div id="detailsDIVScenario114" class="DetailsDiv" >
-						&nbsp;
-						</div>
-					</div>
-				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">vocabulary</td>
-				<td width="50%" class="TableRow" valign="top">&lt;a href=&quot;http://uri.suomi.fi/codelist/jhs/kiinteistorekisteriyksikot&quot; target=&quot;_blank&quot; &gt;http://uri.suomi.fi/codelist/jhs/kiinteistorekisteriyksikot&lt;/a&gt;</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario115" onclick="parent.toggleDiv('detailsDIVScenario115','DetailsImageScenario115')" />Details:
-						<div id="detailsDIVScenario115" class="DetailsDiv" >
-						&nbsp;
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations114" onclick="parent.toggleDiv('detailsDIVOperations114','DetailsImageOperations114')" />Details:
+						<div id="detailsDIVOperations114" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
 						</div>
 					</div>
 				</td>
 			</tr>
-	</table>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>laji</strong>():<a href="EA49.html">KiinteistörekisteriyksikönLaji</a>
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations115" onclick="parent.toggleDiv('detailsDIVOperations115','DetailsImageOperations115')" />Details:
+						<div id="detailsDIVOperations115" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>Public</i><br />
+					<strong>nimi</strong>(					<a href="#" onclick="parent.toggleData('param{A112D25A-113E-415e-82D4-7CCB283C50DF}')" style="text-decoration: none; color: #000000;"><img src="../../images/plus03.gif" align="absmiddle" id="param{A112D25A-113E-415e-82D4-7CCB283C50DF}" border="0" />kieli: LanguageCode</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{A112D25A-113E-415e-82D4-7CCB283C50DF}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{A112D25A-113E-415e-82D4-7CCB283C50DF}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{A112D25A-113E-415e-82D4-7CCB283C50DF}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{A112D25A-113E-415e-82D4-7CCB283C50DF}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):CharacterString
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageOperations116" onclick="parent.toggleDiv('detailsDIVOperations116','DetailsImageOperations116')" />Details:
+						<div id="detailsDIVOperations116" class="DetailsDiv" >
+					<i>Sequential  </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+
+		</table>
 </div>		<div class="ItemBody" id="CustomPropertiesTable">
 			<table border="0" cellspacing="0" cellpadding="0" class="Table">
 				<tr>
