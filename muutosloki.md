@@ -12,6 +12,7 @@ Tarkennettu ehdollisen suuren arvon rakennetta. Muutos mahdollistaa monimutkaist
 * Luotu uusi luokka EhdollinenSuureenArvo, joka kuvaa yhtä vaihtoehtoista arvoista, jonka valinta riippuu ehdon totuusarvosta.
 * Luotu uusi rajapintaluokka Ehto, jonka toteuttavat luokat Ehtolause ja SuureenArvoEhto (vastaa aiempaa Ehto-luokkaa).
 * Korvattu negaatio-attribuutti yleisemmällä arvoOperaattori-attribuutilla ja luotu sille koodisto ArvonOperaattori.
+* Poistettu tarpeettomaksi käynyt AbstraktiLisätiedonLaji-koodistoluokka.
 
 ## 10.6.2022
 Tuotu OsallistumisJaArviointisuunnitelma-luokka osaksi yhteisiä komponentteja. Tarvitaan täsmälleen samanlaisena ainakin Kaavatiedot-, Kaupunkiseutusuunnitelma- ja Rakennusjärjestys-tietomalleissa.
