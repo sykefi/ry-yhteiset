@@ -5,6 +5,9 @@ id: "muutosloki"
 ---
 # Muutosloki
 
+## 14.10.2022
+* Tarkennettu ehdollisen suuren arvon rakennetta: EhdollinenSuureenArvo on nyt uudelleennimetty kuvaavammin VaihtoehtoinenSuurenArvo-luokaksi. Luotu uusi abstrakti luokka Väite, jota erikoistavat konkreettiset luokat Väitelause (vastaa aiempaa Ehtolause-luokkaa) ja SuureenArvoVäite (vastaa aiempaa Ehto-luokkaa). Korvattu negaatio-attribuutti yleisemmällä arvoOperaattori-attribuutilla ja luotu sille koodisto ArvonOperaattori. Uudelleennimetty koodisto EhtolauseenKonnektiivi -> VäitelauseenKonnektiivi. Muutos mahdollistaa monimutkaistenkin propositiologiikan ehtojen ilmaisemisen vaihtoehtoisten suureiden arvojen määräytymisen ehtoina.
+
 ## 10.6.2022
 Tuotu OsallistumisJaArviointisuunnitelma-luokka osaksi yhteisiä komponentteja. Tarvitaan täsmälleen samanlaisena ainakin Kaavatiedot-, Kaupunkiseutusuunnitelma- ja Rakennusjärjestys-tietomalleissa.
 
