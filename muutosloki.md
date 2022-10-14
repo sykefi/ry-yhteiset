@@ -10,7 +10,7 @@ Tarkennettu ehdollisen suuren arvon rakennetta. Muutos mahdollistaa monimutkaist
 
 * EhdollinenSuureenArvo on nyt uudelleennimetty kuvaavammin VaihtoehtoinenSuurenArvo-luokaksi.
 * Luotu uusi luokka EhdollinenSuureenArvo, joka kuvaa yhtä vaihtoehtoista arvoista, jonka valinta riippuu ehdon totuusarvosta.
-* Luotu uusi abstrakti luokka Ehto, jota erikoistavat konkreettiset luokat Ehtolause ja SuureenArvoEhto (vastaa aiempaa Ehto-luokkaa).
+* Luotu uusi rajapintaluokka Ehto, jonka toteuttavat luokat Ehtolause ja SuureenArvoEhto (vastaa aiempaa Ehto-luokkaa).
 * Korvattu negaatio-attribuutti yleisemmällä arvoOperaattori-attribuutilla ja luotu sille koodisto ArvonOperaattori.
 
 ## 10.6.2022
