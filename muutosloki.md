@@ -13,6 +13,7 @@ Tarkennettu ehdollisen suuren arvon rakennetta. Muutos mahdollistaa monimutkaist
 * Luotu uusi rajapintaluokka Ehto, jonka toteuttavat luokat Ehtolause ja SuureenArvoEhto (vastaa aiempaa Ehto-luokkaa).
 * Korvattu negaatio-attribuutti yleisemmällä arvoOperaattori-attribuutilla ja luotu sille koodisto ArvonOperaattori.
 * Poistettu tarpeettomaksi käynyt AbstraktiLisätiedonLaji-koodistoluokka.
+* AbstraktiSuureenArvo-luokan arvo-attribuutin kardinaliteetti voi nyt olla enemmän kuin 1: konkreettinen tarve tähän tulee Kaavamääräyksistä, joissa tarvitaan useampia eri tyyppisiä arvoja, esim. [Vaatimus prof-ak/vaat-sallittu-kerrosala-lisatiedot](https://tietomallit.ymparisto.fi/kaavatiedot/soveltamisprofiili/asemakaava/v1.0/rakentamisen-maara-sijoittaminen/#prof-ak-vaat-sallittu-kerrosala-lisatiedot), jossa suureen "käyttötarkoituksen osuus kerrosalasta" tulee voida sisältää sekä käyttötarkoitukseen viittaavan koodiarvon että numeerisen arvon.
 
 ## 10.6.2022
 Tuotu OsallistumisJaArviointisuunnitelma-luokka osaksi yhteisiä komponentteja. Tarvitaan täsmälleen samanlaisena ainakin Kaavatiedot-, Kaupunkiseutusuunnitelma- ja Rakennusjärjestys-tietomalleissa.
