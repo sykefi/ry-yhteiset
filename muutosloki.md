@@ -5,6 +5,10 @@ id: "muutosloki"
 ---
 # Muutosloki
 
+## 29.11.2022
+
+* Lisätty luokkaan AlueidenkäyttöJaRakentamispäätös uusi pakollinen attribuutti ```elinkaaritila```.
+
 ## 14.10.2022
 Tarkennettu ehdollisen suuren arvon rakennetta. Muutos mahdollistaa monimutkaistenkin propositiologiikan ehtojen ilmaisemisen vaihtoehtoisten suureiden arvojen määräytymisen ehtoina.
 
