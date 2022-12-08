@@ -5,6 +5,10 @@ id: "muutosloki"
 ---
 # Muutosloki
 
+## 8.12.2022
+
+* Lisätty edellisessä päivityksessä vahingossa puuttumaan jäänyt UML-luokkakaaviosisältö.
+
 ## 29.11.2022
 
 * Lisätty luokkaan AlueidenkäyttöJaRakentamispäätös uusi pakollinen attribuutti ```elinkaaritila```.
