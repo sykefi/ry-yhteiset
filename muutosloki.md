@@ -5,6 +5,16 @@ id: "muutosloki"
 ---
 # Muutosloki
 
+## 19.12.2022
+
+* Lisätty RakennetunYmpäristönLupapäätös.päätöksenTulos, fixes #2.
+* Lisätty uudet luokat Asiakirja (interface) ja Asiasana (DataType), muutettu Asiakirja-DataType rajapinnaksi (interface), fixes #3.
+* Lisätty koodistot HenkilötietosisällönLaji, AsiakirjanJulkisuusluokka ja AsiakirjanSaavutettavuusluokka, viimeksi mainittu ilman viittausta Y-alustan koodistoon, fixes #4
+* Lisätty AlueidenkäyttöJaRakentamisasia-luokkaan attribuutti diaarinumero, fixes #5
+* Lisätty AlueidenkäyttöJaRakentamispäätös-luokkaan attribuutti ohjaavaSäädös:Säädösviite [0..*], fixes #6
+* Lisätty RakennetunYmpäristönLupa-luokkaan attribuutti lupaTunnus:CharacterString, fixes #8
+* Uudelleennimetty RakennetunYmpäristönLupa-luokan assosiaatiot siten, että luokalla ei ole kahva määräys-nimistä assosiaatiota, fixes #9.
+
 ## 8.12.2022
 
 * Lisätty edellisessä päivityksessä vahingossa puuttumaan jäänyt UML-luokkakaaviosisältö.
