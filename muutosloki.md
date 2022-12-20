@@ -5,6 +5,11 @@ id: "muutosloki"
 ---
 # Muutosloki
 
+## 20.12.2022
+
+* Lisätty uusi koodisto LupahakemuksenElinkaaritila ja sitä käyttävä attribuutti RakennetunYmpäristönLupahakemus.elinkaaritila, fixes #10
+* Muutettu koodisto AbstraktiLuvanElinkaaritila-koodisto konkreettiseksi LuvanElinkaaritila-luokaksi, fixes #11
+
 ## 19.12.2022
 
 * Lisätty RakennetunYmpäristönLupapäätös.päätöksenTulos, fixes #2.
