@@ -1247,11 +1247,11 @@
 		<GML:DataType base_Class="EAID_3F8A2EB2_871B_436a_A4E6_EABB2FB06C44" noPropertyType="false" isCollection="false"/>
 		<GML:CodeList base_Class="EAID_C22A12F6_197B_4e0a_B882_BFD5C65B068D" asDictionary="true"/>
 		<thecustomprofile:extensibility base_Class="EAID_C22A12F6_197B_4e0a_B882_BFD5C65B068D" extensibility="http://inspire.ec.europa.eu/registry/extensibility/none"/>
-		<thecustomprofile:vocabulary base_Class="EAID_C22A12F6_197B_4e0a_B882_BFD5C65B068D" vocabulary="&lt;puuttuu&gt;"/>
+		<thecustomprofile:vocabulary base_Class="EAID_C22A12F6_197B_4e0a_B882_BFD5C65B068D" vocabulary="http://uri.suomi.fi/codelist/rytj/lupahak-elinkaaren-tila"/>
 		<GML:FeatureType base_Class="EAID_8CF1A36D_A7C5_4748_915C_FE80DA2F9F9B" noPropertyType="false" isCollection="false" byValuePropertyType="false"/>
 		<GML:CodeList base_Class="EAID_4674E987_63C4_4861_9234_F72386509751" asDictionary="true"/>
 		<thecustomprofile:extensibility base_Class="EAID_4674E987_63C4_4861_9234_F72386509751" extensibility="http://inspire.ec.europa.eu/registry/extensibility/none"/>
-		<thecustomprofile:vocabulary base_Class="EAID_4674E987_63C4_4861_9234_F72386509751" vocabulary="&lt;puuttuu&gt;"/>
+		<thecustomprofile:vocabulary base_Class="EAID_4674E987_63C4_4861_9234_F72386509751" vocabulary="http://uri.suomi.fi/codelist/rytj/luvan-elinkaaren-tila"/>
 		<GML:FeatureType base_Class="EAID_B720E434_1797_4bc0_9A6C_BF40DBD1DCB0" noPropertyType="false" isCollection="false" byValuePropertyType="false"/>
 		<GML:DataType base_Class="EAID_7C6352DB_138F_4c0b_8ACD_74F50D89373B" noPropertyType="false" isCollection="false"/>
 		<GML:DataType base_Class="EAID_52A74B3E_0218_47b1_A303_8A4186F398C1" noPropertyType="false" isCollection="false"/>
@@ -1266,7 +1266,7 @@
 		<thecustomprofile:vocabulary base_Class="EAID_87EFB936_1184_4135_87BA_39B144BB4801" vocabulary="&lt;puuttuu&gt;"/>
 		<GML:CodeList base_Class="EAID_E2B1F76B_3438_4df7_BFEB_62012F633EB1" asDictionary="true"/>
 		<thecustomprofile:extensibility base_Class="EAID_E2B1F76B_3438_4df7_BFEB_62012F633EB1" extensibility="http://inspire.ec.europa.eu/registry/extensibility/none"/>
-		<thecustomprofile:vocabulary base_Class="EAID_E2B1F76B_3438_4df7_BFEB_62012F633EB1" vocabulary="&lt;puuttuu&gt;"/>
+		<thecustomprofile:vocabulary base_Class="EAID_E2B1F76B_3438_4df7_BFEB_62012F633EB1" vocabulary="http://uri.suomi.fi/codelist/rytj/paatoksen-elinkaaren-tila"/>
 		<GML:CodeList base_Class="EAID_5DDED475_D402_4224_8A10_7F433541C3BC" asDictionary="true"/>
 		<thecustomprofile:extensibility base_Class="EAID_5DDED475_D402_4224_8A10_7F433541C3BC" extensibility="http://inspire.ec.europa.eu/registry/extensibility/none"/>
 		<thecustomprofile:vocabulary base_Class="EAID_5DDED475_D402_4224_8A10_7F433541C3BC" vocabulary="http://uri.suomi.fi/codelist/rytj/PaatoksenTulos"/>
@@ -2586,7 +2586,7 @@
 					<tag xmi:id="EAID_0BE3FA2A_1A09_4e1a_B499_F244979DC0D2" name="asDictionary" value="true#NOTES#Values: true,false&#xA;Default: false&#xA;Description: If 'false', the class will be mapped to an XSDsimpleType. Else, it will be exported as an external dictionary.&#xA;" modelElement="EAID_C22A12F6_197B_4e0a_B882_BFD5C65B068D"/>
 					<tag xmi:id="EAID_D80E6ACC_660B_6966_B833_77F7C2646966" name="defaultCodeSpace" value="#NOTES#Description: Default value for the URI representing the dictionary &#xA;" modelElement="EAID_C22A12F6_197B_4e0a_B882_BFD5C65B068D"/>
 					<tag xmi:id="EAID_892DCD9B_6B68_44e8_B3DD_C60A2CB804EF" name="extensibility" value="http://inspire.ec.europa.eu/registry/extensibility/none" modelElement="EAID_C22A12F6_197B_4e0a_B882_BFD5C65B068D"/>
-					<tag xmi:id="EAID_792D3ABD_34E8_491d_ADF8_82BC752A7F4E" name="vocabulary" value="&lt;puuttuu&gt;" modelElement="EAID_C22A12F6_197B_4e0a_B882_BFD5C65B068D"/>
+					<tag xmi:id="EAID_792D3ABD_34E8_491d_ADF8_82BC752A7F4E" name="vocabulary" value="http://uri.suomi.fi/codelist/rytj/lupahak-elinkaaren-tila" modelElement="EAID_C22A12F6_197B_4e0a_B882_BFD5C65B068D"/>
 				</tags>
 				<xrefs value="$XREFPROP=$XID={AF110DC7-8B4C-431a-A7D2-415BC8FBDD64}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=CodeList;FQName=GML::CodeList;@ENDSTEREO;$DES;$CLT={C22A12F6-197B-4e0a-B882-BFD5C65B068D}$CLT;$ENDXREF;"/>
 				<extendedProperties tagged="0" package_name="Yhteiset tietokomponentit" ea_attsclassified="{22DF802E-16D8-4151-BBD6-B11413C24D06}"/>
@@ -2636,7 +2636,7 @@
 					<tag xmi:id="EAID_0BE3FA2A_1A09_4e1a_A6D5_493AFAD1ADC3" name="asDictionary" value="true#NOTES#Values: true,false&#xA;Default: false&#xA;Description: If 'false', the class will be mapped to an XSDsimpleType. Else, it will be exported as an external dictionary.&#xA;" modelElement="EAID_4674E987_63C4_4861_9234_F72386509751"/>
 					<tag xmi:id="EAID_D80E6ACC_660B_6966_A74D_E613685041F0" name="defaultCodeSpace" value="#NOTES#Description: Default value for the URI representing the dictionary &#xA;" modelElement="EAID_4674E987_63C4_4861_9234_F72386509751"/>
 					<tag xmi:id="EAID_01D89B76_3E68_4b6e_9A4F_5B099F9B515D" name="extensibility" value="http://inspire.ec.europa.eu/registry/extensibility/none" modelElement="EAID_4674E987_63C4_4861_9234_F72386509751"/>
-					<tag xmi:id="EAID_A11D018E_2E63_4d64_94C0_DC96440728AD" name="vocabulary" value="&lt;puuttuu&gt;" modelElement="EAID_4674E987_63C4_4861_9234_F72386509751"/>
+					<tag xmi:id="EAID_A11D018E_2E63_4d64_94C0_DC96440728AD" name="vocabulary" value="http://uri.suomi.fi/codelist/rytj/luvan-elinkaaren-tila" modelElement="EAID_4674E987_63C4_4861_9234_F72386509751"/>
 				</tags>
 				<xrefs value="$XREFPROP=$XID={B4270C3E-8E42-42cb-A05F-933EDF6F2253}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=CodeList;FQName=GML::CodeList;@ENDSTEREO;$DES;$CLT={4674E987-63C4-4861-9234-F72386509751}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 				<extendedProperties tagged="0" package_name="Yhteiset tietokomponentit" ea_attsclassified="{3F8E93A0-2463-4191-85E1-78CFF953FFCB}"/>
@@ -3026,7 +3026,7 @@
 					<tag xmi:id="EAID_0BE3FA2A_1A09_4e1a_AAD2_79A1D94C762F" name="asDictionary" value="true#NOTES#Values: true,false&#xA;Default: false&#xA;Description: If 'false', the class will be mapped to an XSDsimpleType. Else, it will be exported as an external dictionary.&#xA;" modelElement="EAID_E2B1F76B_3438_4df7_BFEB_62012F633EB1"/>
 					<tag xmi:id="EAID_D80E6ACC_660B_6966_9205_7C0DFD153BAE" name="defaultCodeSpace" value="#NOTES#Description: Default value for the URI representing the dictionary &#xA;" modelElement="EAID_E2B1F76B_3438_4df7_BFEB_62012F633EB1"/>
 					<tag xmi:id="EAID_892DCD9B_6B68_44e8_A6E2_B742EB788FA2" name="extensibility" value="http://inspire.ec.europa.eu/registry/extensibility/none" modelElement="EAID_E2B1F76B_3438_4df7_BFEB_62012F633EB1"/>
-					<tag xmi:id="EAID_792D3ABD_34E8_491d_94FE_8C800D94A7D8" name="vocabulary" value="&lt;puuttuu&gt;" modelElement="EAID_E2B1F76B_3438_4df7_BFEB_62012F633EB1"/>
+					<tag xmi:id="EAID_792D3ABD_34E8_491d_94FE_8C800D94A7D8" name="vocabulary" value="http://uri.suomi.fi/codelist/rytj/paatoksen-elinkaaren-tila" modelElement="EAID_E2B1F76B_3438_4df7_BFEB_62012F633EB1"/>
 				</tags>
 				<xrefs value="$XREFPROP=$XID={2081DAF7-1AF5-47fe-9ECA-D2C6933AFEFA}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=CodeList;FQName=GML::CodeList;@ENDSTEREO;$DES;$CLT={E2B1F76B-3438-4df7-BFEB-62012F633EB1}$CLT;$ENDXREF;"/>
 				<extendedProperties tagged="0" package_name="Yhteiset tietokomponentit" ea_attsclassified="{C11759D7-2E95-4a97-BA7D-B2FFD1AF9E9F}"/>

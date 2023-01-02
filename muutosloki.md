@@ -5,6 +5,10 @@ id: "muutosloki"
 ---
 # Muutosloki
 
+## 2.1.2023
+
+* Lisätty vocabulary-tagit koodistoille LuvanElinkaaritila, PäätöksenElinkaaritila ja LupahakemuksenElinkaaritila, fixes #13, #17, #19 
+
 ## 20.12.2022
 
 * Lisätty uusi koodisto LupahakemuksenElinkaaritila ja sitä käyttävä attribuutti RakennetunYmpäristönLupahakemus.elinkaaritila, fixes #10
