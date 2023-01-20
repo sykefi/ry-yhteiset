@@ -157,7 +157,7 @@ Täsmälleen yhdestä pisteestä koostuva geometriatyyppi. Määritelty rajapint
 
 ### Ehtolause
 
-## SuureenArvoEhto
+### SuureenArvoEhto
 
 ### OminaisuudenArvo
 

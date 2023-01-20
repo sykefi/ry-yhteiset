@@ -137,21 +137,21 @@ Aikavälejä kuvaavat attribuutit voidaan antaa joko sekä alku- että loppuajan
 ### Osoite
 
 {% include common/clause_start.html type="req" id="laatu/vaat-osoite-postinumero" %}
-[Osoite](dokumentaatio/#osoite)-rajapinnan toteuttavien luokkien tulee toteuttaa operaatio ```postinumero()``` siten, että sen palautusarvo suomalaisille osoitteille on validi suomalainen postinumero.
+[Osoite](dokumentaatio/#osoite)-rajapinnan toteuttavien luokkien tulee toteuttaa operaatio ```postinumero``` siten, että sen palautusarvo suomalaisille osoitteille on validi suomalainen postinumero.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="laatu/vaat-osoite-huoneistotunnuksen-kirjainosa" %}
-[Osoite](dokumentaatio/#osoite)-rajapinnan toteuttavien luokkien tulee toteuttaa operaatio ```huoneistotunnuksenKirjainosa()``` siten, että palautettavan merkkijonon pituus on 1 merkki, ja arvo on iso kirjain välillä 'A' - 'Ö'.
+[Osoite](dokumentaatio/#osoite)-rajapinnan toteuttavien luokkien tulee toteuttaa operaatio ```huoneistotunnuksenKirjainosa``` siten, että palautettavan merkkijonon pituus on 1 merkki, ja arvo on iso kirjain välillä 'A' - 'Ö'.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="laatu/vaat-osoite-huoneistotunnuksennumero-osa" %}
-[Osoite](dokumentaatio/#osoite)-rajapinnan toteuttavien luokkien tulee toteuttaa operaatio ```huoneistotunnuksenNumeroOsa()``` siten, että palautettava kokonaisluku on välillä 1 -999.
+[Osoite](dokumentaatio/#osoite)-rajapinnan toteuttavien luokkien tulee toteuttaa operaatio ```huoneistotunnuksenNumeroOsa``` siten, että palautettava kokonaisluku on välillä 1 -999.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="laatu/vaat-osoite-huoneistotunnuksen-jakokirjain" %}
-[Osoite](dokumentaatio/#osoite)-rajapinnan toteuttavien luokkien tulee toteuttaa operaatio ```huoneistotunnuksenJakokirjain()``` siten, että alautettavan merkkijonon pituus on 1 merkki, ja arvo on pieni kirjain välillä 'a' - 'ö'.
+[Osoite](dokumentaatio/#osoite)-rajapinnan toteuttavien luokkien tulee toteuttaa operaatio ```huoneistotunnuksenJakokirjain``` siten, että alautettavan merkkijonon pituus on 1 merkki, ja arvo on pieni kirjain välillä 'a' - 'ö'.
 {% include common/clause_end.html %}
 
 {% include common/clause_start.html type="req" id="laatu/vaat-osoite-osoitenumeron-jakokirjain" %}
-[Osoite](dokumentaatio/#osoite)-rajapinnan toteuttavien luokkien tulee toteuttaa operaatio ```osoitenumeronJakokirjain()``` siten, että alautettavan merkkijonon pituus on 1 merkki, ja arvo on pieni kirjain välillä 'a' - 'ö', väliviiva (```-```) tai kauttaviiva (```/```).
+[Osoite](dokumentaatio/#osoite)-rajapinnan toteuttavien luokkien tulee toteuttaa operaatio ```osoitenumeronJakokirjain``` siten, että alautettavan merkkijonon pituus on 1 merkki, ja arvo on pieni kirjain välillä 'a' - 'ö', väliviiva (```-```) tai kauttaviiva (```/```).
 {% include common/clause_end.html %}
