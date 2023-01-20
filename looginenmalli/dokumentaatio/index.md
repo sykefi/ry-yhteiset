@@ -143,7 +143,7 @@ Täsmälleen yhdestä pisteestä koostuva geometriatyyppi. Määritelty rajapint
 
 ## Suureet ja arvot
 
-### AbstraktiSuurenArvo
+### AbstraktiSuureenArvo
 
 ### Suure
 

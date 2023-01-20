@@ -11,6 +11,7 @@ id: "muutosloki"
 * Valmisteluja 1.0-julkaisuversion tekemiseen: README, Johdanto, sivujen statustiedot.
 * Lisätty laatusäännöt -sivu, jossa toistaiseksi yleisten laatusääntöjen lisäksi vain Osoite-rajapintaan liittyvät vaatimukset.
 * Poistettu Lisätiedot-luokka, joka oli jäänyt jo aiemmin tarpeettomaksi.
+* Korjattu typo dokumentaatio-sivun luokan nimessä (AbstraktiSuurenArvo -> AbstraktiSuureenArvo). 
 
 ## 2.1.2023
 
