@@ -5,6 +5,11 @@ id: "muutosloki"
 ---
 # Muutosloki
 
+## 20.1.2023
+
+* Poistettu dokumentaatio-sivulta Kaavavtietomallista kopioitu sisältö, lisätty yleistä-osa, kuvattu muihin standardeista käytetyt tietotyypit ja lueteltu otsikoina kaikki tietomallin nykyiset luokat.
+* Valmisteluja 1.0-julkaisuversion tekemiseen: README, Johdanto, sivujen statustiedot.
+
 ## 2.1.2023
 
 * Lisätty vocabulary-tagit koodistoille LuvanElinkaaritila, PäätöksenElinkaaritila ja LupahakemuksenElinkaaritila, fixes #13, #17, #19 
