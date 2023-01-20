@@ -9,6 +9,8 @@ id: "muutosloki"
 
 * Poistettu dokumentaatio-sivulta Kaavavtietomallista kopioitu sisältö, lisätty yleistä-osa, kuvattu muihin standardeista käytetyt tietotyypit ja lueteltu otsikoina kaikki tietomallin nykyiset luokat.
 * Valmisteluja 1.0-julkaisuversion tekemiseen: README, Johdanto, sivujen statustiedot.
+* Lisätty laatusäännöt -sivu, jossa toistaiseksi yleisten laatusääntöjen lisäksi vain Osoite-rajapintaan liittyvät vaatimukset.
+* Poistettu Lisätiedot-luokka, joka oli jäänyt jo aiemmin tarpeettomaksi.
 
 ## 2.1.2023
 

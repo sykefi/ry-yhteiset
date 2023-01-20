@@ -81,119 +81,125 @@ Täsmälleen yhdestä pisteestä koostuva geometriatyyppi. Määritelty rajapint
 
 ## Tietomallin yleispiirteet
 
-## AbstraktiSuurenArvo
+## Ydin
 
-## Aikaväliarvo
+### VersioituObjekti
 
-## Ajanhetkiarvo
+### AlueidenkäyttöJaRakentamisasia
 
-## AlueidenkäyttöJaRakentamisasia
+### AlueidenkäyttöJaRakentamispäätös
 
-## AlueidenkäyttöJaRakentamismääräys
+### AlueidenkäyttöJaRakentamismääräys
 
-## AlueidenkäyttöJaRakentamispäätös
+### Tietoryhmä
 
-## Alueidenkäyttöasia
+### Tietoyksikkö
 
-## Alueidenkäyttöpäätös
+### RakennetunYmpäristönKohde
 
-## Alueidenkäyttösuunnitelma
-
-## AlueidenkäyttösuunnitelmanHyväksymispäätös
-
-## Asiasana
-
-## EhdollinenSuureenArvo
-
-## Ehtolause
-
-## GeometriaArvo
-
-## Koodiarvo
-
-## Korkeuspiste
-
-## Korkeusväli
-
-## Käsittelytapahtuma
-
-## LainTaiAsetuksenMääräys
-
-## Liiteasiakirja
-
-## Lisätieto
-
-## LupahakemuksenElinkaaritila
-
-## Lupamääräys
-
-## Lähtötietoaineisto
-
-## MääräyksestäPoikkeaminen
-
-## NumeerinenArvo
-
-## NumeerinenArvoväli
-
-## OminaisuudenArvo
-
-## OsallistumisJaArviointisuunnitelma
-
-## Rajapiste
-
-## RakennetunYmpäristönKohde
-
-## RakennetunYmpäristönLupa
-
-## RakennetunYmpäristönLupaAsia
-
-## RakennetunYmpäristönLupahakemus
-
-## RakennetunYmpäristönLupapäätös
-
-## SuunnitelmanLaatija
-
-## Suure
-
-## SuureenArvo
-
-## SuureenArvoEhto
-
-## Säädösviite
-
-## Tapahtuma
-
-## Tekstiarvo
-
-## Tietoryhmä
-
-## Tietoyksikkö
-
-## Tunnusarvo
-
-## VaihtoehtoinenSuureenArvo
-
-## VersioituObjekti
-
-## Vuorovaikutustapahtuma
-
-## Rajapinnat
+### Liiteasiakirja
 
 ### Asiakirja
 
-### Ehto
+### Asiasana
 
 ### HallinnollinenAlue
 
 ### Henkilö
 
-### Kiinteistö
-
 ### Organisaatio
 
-### Osoite
-
 ### Toimija
+
+## Alueidenkäyttö
+
+### Alueidenkäyttöasia
+
+### Alueidenkäyttöpäätös
+
+### Alueidenkäyttösuunnitelma
+
+### AlueidenkäyttösuunnitelmanHyväksymispäätös
+
+### Lähtötietoaineisto
+
+## Rakennetun ympäristön luvat
+
+### RakennetunYmpäristönLupa
+
+### RakennetunYmpäristönLupaAsia
+
+### RakennetunYmpäristönLupahakemus
+
+### RakennetunYmpäristönLupapäätös
+
+### LainTaiAsetuksenMääräys
+
+### Säädösviite
+
+### MääräyksestäPoikkeaminen
+
+### Lupamääräys
+
+## Suureet ja arvot
+
+### AbstraktiSuurenArvo
+
+### Suure
+
+### SuureenArvo
+
+### VaihtoehtoinenSuureenArvo
+
+### EhdollinenSuureenArvo
+
+### Ehto
+
+### Ehtolause
+
+## SuureenArvoEhto
+
+### OminaisuudenArvo
+
+### Aikaväliarvo
+
+### Ajanhetkiarvo
+
+### GeometriaArvo
+
+### Koodiarvo
+
+### NumeerinenArvo
+
+### NumeerinenArvoväli
+
+### Korkeuspiste
+
+### Korkeusväli
+
+### Tunnusarvo
+
+### Tekstiarvo
+
+## Tapahtumat
+
+### Tapahtuma
+
+### Käsittelytapahtuma
+
+### Vuorovaikutustapahtuma
+
+## Apuluokat
+
+### OsallistumisJaArviointisuunnitelma
+
+### Rajapiste
+
+### SuunnitelmanLaatija
+
+### Kiinteistö
+
+### Osoite
 
 ## Koodistot
 
