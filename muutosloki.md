@@ -5,6 +5,33 @@ id: "muutosloki"
 ---
 # Muutosloki
 
+## 20.1.2023
+
+* Poistettu dokumentaatio-sivulta Kaavatietomallista kopioitu sisältö, lisätty yleistä-osa, kuvattu muihin standardeista käytetyt tietotyypit ja lueteltu otsikoina kaikki tietomallin nykyiset luokat.
+* Valmisteluja 1.0-julkaisuversion tekemiseen: README, Johdanto, sivujen statustiedot.
+* Lisätty laatusäännöt -sivu, jossa toistaiseksi yleisten laatusääntöjen lisäksi vain Osoite-rajapintaan liittyvät vaatimukset.
+* Poistettu Lisätiedot-luokka, joka oli jäänyt jo aiemmin tarpeettomaksi.
+* Korjattu typo dokumentaatio-sivun luokan nimessä (AbstraktiSuurenArvo -> AbstraktiSuureenArvo). 
+
+## 2.1.2023
+
+* Lisätty vocabulary-tagit koodistoille LuvanElinkaaritila, PäätöksenElinkaaritila ja LupahakemuksenElinkaaritila, fixes #13, #17, #19 
+
+## 20.12.2022
+
+* Lisätty uusi koodisto LupahakemuksenElinkaaritila ja sitä käyttävä attribuutti RakennetunYmpäristönLupahakemus.elinkaaritila, fixes #10
+* Muutettu koodisto AbstraktiLuvanElinkaaritila-koodisto konkreettiseksi LuvanElinkaaritila-luokaksi, fixes #11
+
+## 19.12.2022
+
+* Lisätty RakennetunYmpäristönLupapäätös.päätöksenTulos, fixes #2.
+* Lisätty uudet luokat Asiakirja (interface) ja Asiasana (DataType), muutettu Asiakirja-DataType rajapinnaksi (interface), fixes #3.
+* Lisätty koodistot HenkilötietosisällönLaji, AsiakirjanJulkisuusluokka ja AsiakirjanSaavutettavuusluokka, viimeksi mainittu ilman viittausta Y-alustan koodistoon, fixes #4
+* Lisätty AlueidenkäyttöJaRakentamisasia-luokkaan attribuutti diaarinumero, fixes #5
+* Lisätty AlueidenkäyttöJaRakentamispäätös-luokkaan attribuutti ohjaavaSäädös:Säädösviite [0..*], fixes #6
+* Lisätty RakennetunYmpäristönLupa-luokkaan attribuutti lupaTunnus:CharacterString, fixes #8
+* Uudelleennimetty RakennetunYmpäristönLupa-luokan assosiaatiot siten, että luokalla ei ole kahva määräys-nimistä assosiaatiota, fixes #9.
+
 ## 8.12.2022
 
 * Lisätty edellisessä päivityksessä vahingossa puuttumaan jäänyt UML-luokkakaaviosisältö.
