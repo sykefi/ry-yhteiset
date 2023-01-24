@@ -5,6 +5,10 @@ id: "muutosloki"
 ---
 # Muutosloki
 
+## Versio 1.0.0
+
+* Ensimmäinen julkaisuvversio
+
 ## 20.1.2023
 
 * Poistettu dokumentaatio-sivulta Kaavatietomallista kopioitu sisältö, lisätty yleistä-osa, kuvattu muihin standardeista käytetyt tietotyypit ja lueteltu otsikoina kaikki tietomallin nykyiset luokat.
